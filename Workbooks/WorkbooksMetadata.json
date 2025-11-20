@@ -9570,5 +9570,25 @@
 		"templateRelativePath": "GDPRComplianceAndDataSecurity.json",
 		"subtitle": "",
 		"provider": "Microsoft"
-	}
+	},
+	{
+  "workbookKey": "ConditionalAccessInsights",
+  "logoFileName": "azureactivedirectory_logo.svg",
+  "description": "Provides deep insights, summaries, and real-time analysis of Conditional Access policies for both users and workload identities. Includes reporting for authentication flows, risk levels, device state, application access, named locations, What-If analysis alignment, emergency account monitoring, and policy effectiveness across AuditLogs, SigninLogs, and AAD Service Principal Sign-In data.",
+  "dataTypesDependencies": [
+    "AuditLogs",
+    "SigninLogs",
+    "AADServicePrincipalSignInLogs",
+    "AADRiskyServicePrincipals"
+  ],
+  "dataConnectorsDependencies": [
+    "AzureActiveDirectory"
+  ],
+  "previewImagesFileNames": [],
+  "version": "1.0.0",
+  "title": "Conditional Access – Summaries, Insights, Security & Monitoring (CA-SISM)",
+  "templateRelativePath": "ConditionalAccessSISM.json",
+  "subtitle": "",
+  "provider": "Microsoft"
+}
 ]
